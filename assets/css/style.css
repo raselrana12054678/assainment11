@@ -1,0 +1,94 @@
+.header-area {
+    background: rgb(8, 209, 199);
+    padding: 10px 0;
+}
+.logo-area {
+    margin-top: -6px;
+}
+.menu-area {
+    padding-top: 9px;
+    text-align: right;
+    position: relative;
+}
+.menu-area li {
+    list-style: none;
+    display: inline-block;
+}
+.menu-area a {
+    text-decoration: none;
+    margin-right: 40px;
+    text-transform: capitalize;
+    color: #fff;
+    transition: .6s;
+    position: relative;
+}
+.menu-area a:after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -10px;
+    display: block;
+    position: absolute;
+    background-color: red;
+    transition: .6s;
+}
+.menu-area a:hover:after {
+    width: 100%;
+}
+.btn {
+    border: 1px solid rgb(211, 8, 171);
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: .6s;
+}
+.btn:hover {
+    background: rgb(4, 190, 207);
+    color: #fff;
+}
+.btn a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* icon box */
+.icon-box {
+    background-color: #fff;
+    padding: 50px 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 8px 10px #ddd;
+}
+
+.icon-box i {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+/* image login  */
+.image-area img {
+    margin-bottom: 30px;
+}
+/* form start here */
+form input {
+    width: 20%;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+input {
+    margin-bottom: 15px;
+}
+input::placeholder {
+    padding: 30px 10px;
+}
+
+button {
+    padding: 8px 30px;
+    border-radius: 10px;
+}
+
+.footer-area p {
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
